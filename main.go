@@ -53,7 +53,7 @@ func main() {
 	}
 
 	//import into TV
-	log.Printf("Importing into %d executions into Tradervue...\n", len(executions))
+	log.Printf("Importing %d executions into Tradervue...\n", len(executions))
 	tags := strings.Split(*tagsRaw, ",")
 	err = tradervue.Import(executions, *username, *password, tags, accountTag)
 	if err != nil {

@@ -67,11 +67,11 @@ func Import(executions []Execution, username string, password string, tags []str
 	}
 
 	if response.Status == "queued" {
-		log.Println("Success! Tradervue import request was not queued. Check your Tradervue account now.")
+		log.Println("Success! Your import request now queued in Tradervue. Check your Tradervue account now.")
 		log.Println("https://apteros.tradervue.com/trades")
 	} else {
 		log.Println(fmt.Sprintf("Tradervue import request was submitted successfully, but we got an unexpected status response: %s\n", response.Status))
-		log.Println("Check your Tradervue account to make sure trades imported as expectd.")
+		log.Println("Check your Tradervue account to make sure trades imported as expected.")
 		log.Println("https://apteros.tradervue.com/trades")
 	}
 
