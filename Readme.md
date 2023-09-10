@@ -22,11 +22,11 @@ DTC server enabled with the following options:
 * Require TLS: No
 * Encoding: JSON
 
-<img height="400" src="C:\Users\renel\GolandProjects\Sierrachart2Tradervue\assets\SierrachartDTCServerPreferences.jpg"/>
+<img height="400" src="assets/SierrachartDTCServerPreferences.jpg" alt=""/>
 
 Furthermore, you need to know the Sierrachart trade account name. This can be a simulated or real account.
 
-<img src="C:\Users\renel\GolandProjects\Sierrachart2Tradervue\assets\TradeAccountMonitor.jpg" width="300"/>
+<img src="assets/TradeAccountMonitor.jpg" width="300" alt=""/>
 
 ## Requirements - Tradervue
 You must have a Tradervue account and know your username and password.
