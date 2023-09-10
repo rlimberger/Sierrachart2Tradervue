@@ -50,3 +50,11 @@ Optional flags:
 `Sierrachart2Tradervue.exe -tv_username exampleuser -tv_password examplepassword -sc_account Sim1 -sc_days 3 -tv_tags tag1,tag2,tag3 -tv_account_tag SC-Sim1
 `
 
+### Example output
+```2023/09/10 11:51:14 Successfully logged on to DTC server
+2023/09/10 11:51:14 Requesting 3 day(s) of historical fills for trade account `Rene` from SierraChart
+2023/09/10 11:51:14 Received 9 fills from Sierrachart
+2023/09/10 11:51:14 Importing into 9 executions into Tradervue...
+2023/09/10 11:51:15 Success! Tradervue import request was not queued. Check your Tradervue account now.
+2023/09/10 11:51:15 https://apteros.tradervue.com/trades
+```
