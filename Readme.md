@@ -43,6 +43,10 @@ Optional flags:
 * `-tv_account_tag <Tradervue account tag>`
 
 ### Example
+`Sierrachart2Tradervue.exe -tv_username exampleuser -tv_password examplepassword -sc_account Sim1 -sc_days 3
+`
+
+### Example - with tags
 `Sierrachart2Tradervue.exe -tv_username exampleuser -tv_password examplepassword -sc_account Sim1 -sc_days 3 -tv_tags tag1,tag2,tag3 -tv_account_tag SC-Sim1
 `
 
