@@ -29,14 +29,14 @@ You must have a Tradervue account and know your username and password.
 
 ## Usage
 Required flags:
-* -tv_username _\<TV Username\>_
-* -tv_password _\<TV Password\>_ 
-* -sc_account _\<SC Trade Account or sim name\>_ 
-* -sc_days _\<Number of days back to request fills for\>_ 
+* `-tv_username <TV Username>`
+* `-tv_password <TV Password>` 
+* `-sc_account <SC Trade Account or sim name>` 
+* `-sc_days <Number of days back to request fills for>` 
 
 Optional flags:
-* -tv_tags _\<comma seperated list of tags to use for TV import\>_ 
-* -tv_account_tag _\<Tradervue account tag\>_
+* `-tv_tags <comma seperated list of tags to use for TV import>`
+* `-tv_account_tag <Tradervue account tag>`
 
 ### Example
 `Sierrachart2Tradervue.exe -tv_username exampleuser -tv_password examplepassword -sc_account Sim1 -sc_days 3 -tv_tags tag1,tag2,tag3 -tv_account_tag SC-Sim1
