@@ -1,4 +1,4 @@
-# Sierrachart2Traderview
+# Sierrachart2Tradervue
 
 ## Description
 This program imports fills for a given Sierrachart trade account into Tradervue.
@@ -7,7 +7,7 @@ This program imports fills for a given Sierrachart trade account into Tradervue.
 It connects to the [DTC server](https://www.sierrachart.com/index.php?page=doc/DTCServer.php) on your local instance of Sierrachart and request 
 fills for a given trade account for the given number of days back. 
 Once received, it converts them to Tradervue executions and imports them into 
-Tradervue using the [Traderview REST API](https://github.com/tradervue/api-docs).
+Tradervue using the [Tradervue REST API](https://github.com/tradervue/api-docs).
 
 ## Requirements - Sierrachart
 Your local instance of Sierrachart must be running and have the 
