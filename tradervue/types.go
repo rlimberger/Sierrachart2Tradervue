@@ -1,5 +1,8 @@
 package tradervue
 
+// Tradervue types as per:
+// https://github.com/tradervue/api-docs
+
 type Execution struct {
 	Datetime   string `json:"datetime"`
 	Symbol     string `json:"symbol"`

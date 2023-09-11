@@ -1,5 +1,8 @@
 package dtc
 
+// Sierrachart DTC types as per:
+// https://dtcprotocol.org/DTC_Files/DTCProtocol.proto
+
 type DTCVersion int32
 
 const (
